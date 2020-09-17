@@ -1,5 +1,5 @@
 layout: sidebar
-style: light
+style: dark
 
 plugins:
   - jekyll-octicons
@@ -26,16 +26,19 @@ projects:
     archived: false
     forks: true
     projects:
-    # - repo-name
+     - simple-vim
+  include:
+    projects:
+      - mausr
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
   # hackerrank: your_username
   # instagram: your_username
   # keybase: your_username
-  # linkedin: your_username
+  linkedin: james-mcdouga
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
@@ -46,13 +49,34 @@ projects:
   # website: http://your_website_url
   # youtube: your_username
 
+jobs:
+  - company: Cirrascale Cloud Services
+    title: Software Engineer Intern
+    image_url: https://cirrascale.com/assets/img/basic/logo.png
+    web_url: https://www.cirrascale.com/
+    description: Machine Learning pipelines in Kearny Mesa, California
+
+  - company: Centauri
+    title: Software Engineer Intern
+    image_url: https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fi.opensystemsmedia.com%2F%3Ff%3Djpg%26q%3D85%26w%3D900%26src%3Dhttp%3A%252F%252Fshare.opsy.st%252F5df10695352ce-Centauri_Logo_ForWeb_Full_Color.png&f=1&nofb=1
+    web_url: https://www.centauricorp.com/
+    description: Machine Learning with PyTorch in Carlsbad, California
+    
+  - company: San Diego Supercomputer Center
+    title: Software Engineer Intern
+    image_url: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.W23yZL42JcOm1QEiWLIefgHaBw%26pid%3DApi&f=1
+    web_url: https://www.sdsc.edu/about_sdsc/index.html
+    description: Ongoing Jupyter Notebook Service in La Jolla, California
+
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: Jetson Nano
+    web_url: https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/
+    image_url: https://www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/jetson-store/nvidia-jetson-nano-dev-kit-2c50-D.png
 
-  - name: Web design
+  - name: IoT
+    web_url: https://en.wikipedia.org/wiki/Internet_of_things
+    image_url: https://blogs-images.forbes.com/louiscolumbus/files/2017/09/IoT-Landscape-1-1.jpg
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: PyTorch
+    web_url: https://pytorch.org/
+    image_url: https://pytorch.org/assets/images/pytorch-logo.png
